@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "Cherl" ;
+    src: url(/fonts/cheri/CHERL___.TTF);
+    
+}
+@font-face {
+    font-family: "Cheri" ;
+    src: url(/fonts/cheri/CHERI___.TTF);
+}
+
+body {
+    background: pink;
+    display: relative;
+}
+
+/* Front Page Start */
+
+.frontpage{
+    position: static;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    
+}
+
+.headpage h1{
+    font-family: "Cheri", sans-serif;
+    font-size: 5vh;
+    color: hotpink;
+    padding-top: 20px;
+}
+
+.headpage p{
+    padding: 22px;
+    padding-left: 10px;
+    font-family: "Cherl", sans-serif;
+    font-size: 3vh;
+    color: hotpink;
+}
+/* Front Page End */
+
+/*Start button start*/
+
+.huntbtn {
+    align-items: center;
+    margin-left: 15vh;
+    margin-right: 7vh;
+   
+}
+button {
+    background-color: hotpink;
+    padding: 10px 14px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 0 25px 0 (red);
+}
+
+/*Start button End*/
+
+/*table start*/
+.Ourlife table {
+    border: 5px;
+    border-radius: 5px;
+    
+    margin-left: 2vh;
+    margin-right: 1px;
+    padding-left: 1px;
+    padding-right: 1px ;
+}
+
+.Ourlife table td {
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+
+/*table end*/
+
+
+/*Our story start*/
+.aboutpara p {
+    font-family: "Cherl", sans-serif;
+    padding: 4vh;
+    font-size: 3vh;
+    color: hotpink;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social img {
+    max-width: 100%;
+}
+.social .image {
+flex-basis: 40%;
+}
+
+.social h1 {
+    font-size: 3vh;
+    padding-left: 3vh;
+}
+
+
+/*Our Story End*/

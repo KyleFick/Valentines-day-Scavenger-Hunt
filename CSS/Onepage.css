@@ -1,0 +1,52 @@
+/*One Page Css Start*/
+.tablink {
+    cursor: pointer;
+}
+.tablink:hover {
+    background-color: pink;
+}
+
+.tabcontent {
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+    align-items: center;
+    margin: px;
+}
+
+.tabcontent a {
+    color:rebeccapurple;
+}
+.us {
+    font-family: "Cheri";
+    font-size: 20px;
+    text-transform: uppercase;   
+    color: teal;
+}
+
+.hunt {
+    font-family: "Cheri";
+    font-size: 5vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    text-transform: uppercase;
+    color: rebeccapurple;
+}
+
+.tabcontent button {
+    margin-left: 1vh;
+}
+
+p {
+    position: static;
+}
+
+.finale button {
+    background-color: teal;
+    color:darkmagenta;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 0 25px 0 (whitesmoke);
+}
+/*One Page Css End*/
